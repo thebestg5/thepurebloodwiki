@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter Spells</title>
+<link rel="stylesheet" href="wiki.css">
+      <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh; /* Full height */
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            flex-grow: 1; /* Content takes up the remaining space */
+            padding: 20px;
+            overflow-y: auto; /* Ensure scrollable if content is too long */
+        }
+        h2 {
+            color: #444;
+        }
+        .category {
+            margin-bottom: 30px;
+        }
+        .spells {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .spells li {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .category-title {
+            font-size: 24px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Harry Potter Spells</h1>
+</header>
+
+<div class="container">
+    <!-- Common Spells -->
+    <div class="category">
+        <h2 class="category-title">Common Spells</h2>
+        <ul class="spells">
+            <li>Alohomora – Unlocks locks.</li>
+            <li>Lumos – Creates light at the tip of the wand.</li>
+            <li>Nox – Extinguishes the wand light (opposite of Lumos).</li>
+            <li>Wingardium Leviosa – Makes objects levitate.</li>
+            <li>Accio – Summons objects towards the wizard.</li>
+            <li>Expelliarmus – Disarms the opponent.</li>
+            <li>Protego – Creates a protective shield.</li>
+            <li>Reparo – Repairs broken objects.</li>
+            <li>Silencio – Silences a person or creature.</li>
+            <li>Aparecium – Reveals invisible ink.</li>
+            <li>Sonorus – Amplifies the user's voice.</li>
+            <li>Quietus – Restores the voice to normal volume (opposite of Sonorus).</li>
+        </ul>
+    </div>
+
+    <!-- Defense and Attack Spells -->
+    <div class="category">
+        <h2 class="category-title">Defense and Attack Spells</h2>
+        <ul class="spells">
+            <li>Stupefy – Stuns the opponent.</li>
+            <li>Petrificus Totalus – Completely paralyzes the target.</li>
+            <li>Impedimenta – Stops or slows down the opponent.</li>
+            <li>Rictusempra – Causes intense tickling.</li>
+            <li>Reducto – Destroys objects.</li>
+            <li>Confringo – Causes explosions.</li>
+            <li>Incarcerous – Creates ropes to bind the target.</li>
+        </ul>
+    </div>
+
+    <!-- Healing and Manipulation Spells -->
+    <div class="category">
+        <h2 class="category-title">Healing and Manipulation Spells</h2>
+        <ul class="spells">
+            <li>Episkey – Heals minor wounds.</li>
+            <li>Ferula – Creates bandages for wounds.</li>
+            <li>Enervate – Revives someone who is stunned.</li>
+            <li>Obliviate – Erases memories.</li>
+            <li>Legilimens – Allows the user to read minds.</li>
+            <li>Confundus – Confuses the target.</li>
+        </ul>
+    </div>
+
+    <!-- Dark Spells and Unforgivable Curses -->
+    <div class="category">
+        <h2 class="category-title">Dark Spells and Unforgivable Curses</h2>
+        <ul class="spells">
+            <li>Avada Kedavra – Kills the victim instantly.</li>
+            <li>Crucio – Inflicts unbearable pain.</li>
+            <li>Imperio – Controls the victim’s will.</li>
+            <li>Sectumsempra – Cuts deeply as if with invisible swords.</li>
+        </ul>
+    </div>
+
+    <!-- Other Useful Spells -->
+    <div class="category">
+        <h2 class="category-title">Other Useful Spells</h2>
+        <ul class="spells">
+            <li>Expecto Patronum – Summons a Patronus to repel Dementors.</li>
+            <li>Muffliato – Makes nearby people hear a buzzing sound instead of conversations.</li>
+            <li>Finite Incantatem – Cancels the effects of other spells.</li>
+            <li>Gemino – Duplicates objects.</li>
+            <li>Reducio – Reduces the size of an object.</li>
+            <li>Engorgio – Enlarges the size of an object.</li>
+        </ul>
+    </div>
+
+    <!-- Movement and Object Manipulation Spells -->
+    <div class="category">
+        <h2 class="category-title">Movement and Object Manipulation Spells</h2>
+        <ul class="spells">
+            <li>Depulso – Pushes objects or people away (opposite of Accio).</li>
+            <li>Locomotor – Moves objects with the wand.</li>
+            <li>Mobilicorpus – Moves lifeless bodies by levitating them.</li>
+            <li>Descendo – Makes an object fall or descend.</li>
+            <li>Ascendio – Launches the user upward with great speed.</li>
+        </ul>
+    </div>
+
+    <!-- Advanced Defense and Protection Spells -->
+    <div class="category">
+        <h2 class="category-title">Advanced Defense and Protection Spells</h2>
+        <ul class="spells">
+            <li>Protego Totalum – Creates a large protective barrier.</li>
+            <li>Protego Horribilis – Protection against dark magic.</li>
+            <li>Protego Maxima – An advanced and powerful version of Protego.</li>
+            <li>Salvio Hexia – Protects an area against hostile spells.</li>
+            <li>Repello Muggletum – Makes Muggles avoid an enchanted area.</li>
+            <li>Homenum Revelio – Detects the presence of nearby people.</li>
+        </ul>
+    </div>
+
+    <!-- Transfiguration and Alteration Spells -->
+    <div class="category">
+        <h2 class="category-title">Transfiguration and Alteration Spells</h2>
+        <ul class="spells">
+            <li>Duro – Turns an object into stone.</li>
+            <li>Glisseo – Turns stairs into a slide.</li>
+            <li>Herbivicus – Accelerates the growth of plants.</li>
+            <li>Orchideous – Makes a bouquet of flowers appear.</li>
+            <li>Colovaria – Changes the color of an object.</li>
+            <li>Melofors – Covers the target's head with a pumpkin.</li>
+            <li>Evanesco – Makes objects or substances vanish.</li>
+        </ul>
+    </div>
+
+    <!-- Illusion and Mind Control Spells -->
+    <div class="category">
+        <h2 class="category-title">Illusion and Mind Control Spells</h2>
+        <ul class="spells">
+            <li>Obscuro – Blinds the target with a magical blindfold.</li>
+            <li>Confundus – Confuses and disorients the victim.</li>
+            <li>Imperius – Forces the victim to obey (Unforgivable Curse).</li>
+        </ul>
+    </div>
+
+    <!-- Fire and Water Related Spells -->
+    <div class="category">
+        <h2 class="category-title">Fire and Water Related Spells</h2>
+        <ul class="spells">
+            <li>Incendio – Creates fire.</li>
+            <li>Aguamenti – Produces water from the wand.</li>
+            <li>Glacius – Freezes objects.</li>
+            <li>Arresto Momentum – Slows the movement of objects or people.</li>
+        </ul>
+    </div>
+
+    <!-- Fun or Practical Spells -->
+    <div class="category">
+        <h2 class="category-title">Fun or Practical Spells</h2>
+        <ul class="spells">
+            <li>Tarantallegra – Makes the target’s legs dance uncontrollably.</li>
+            <li>Slugulus Eructo – Causes the victim to vomit slugs.</li>
+            <li>Waddiwasi – Launches small objects at high speed.</li>
+        </ul>
+    </div>
+
+    <!-- Physical Manipulation Spells -->
+    <div class="category">
+        <h2 class="category-title">Physical Manipulation Spells</h2>
+        <ul class="spells">
+            <li>Alarte Ascendare – Launches an object or living being into the air.</li>
+            <li>Baubillious – Casts a bolt of electric light.</li>
+            <li>Carpe Retractum – Works like a magical hook to pull objects or people.</li>
+            <li>Cistem Aperio – Opens trunks and boxes forcefully.</li>
+            <li>Partis Temporus – Temporarily separates objects or barriers.</li>
+        </ul>
+    </div>
+
+    <!-- Dark Magic Spells -->
+    <div class="category">
+        <h2 class="category-title">Dark Magic Spells</h2>
+        <ul class="spells">
+            <li>Morsmordre – Summons the Dark Mark of the Death Eaters.</li>
+            <li>Conjunctivitis – Affects the target’s vision, causing temporary blindness.</li>
+            <li>Defodio – Digs or opens holes in solid surfaces.</li>
+            <li>Oppugno – Makes objects or creatures attack a target.</li>
+            <li>Relashio – Releases the target from bindings, chains, or grips.</li>
+        </ul>
+    </div>
+
+    <!-- Climate and Environmental Spells -->
+    <div class="category">
+        <h2 class="category-title">Climate and Environmental Spells</h2>
+        <ul class="spells">
+            <li>Ventus – Creates a strong gust of wind.</li>
+            <li>Meteolojinx Recanto – Stops weather effects created by magic.</li>
+            <li>Finestra – Breaks windows silently.</li>
+            <li>Periculum – Shoots red sparks into the sky (used as an emergency signal).</li>
+        </ul>
+    </div>
+
+    <!-- Communication and Writing Spells -->
+    <div class="category">
+        <h2 class="category-title">Communication and Writing Spells</h2>
+        <ul class="spells">
+            <li>Anapneo – Clears a person’s airway.</li>
+            <li>Specialis Revelio – Reveals hidden spells in an object.</li>
+            <li>Portus – Turns an object into a Portkey (teleporter).</li>
+            <li>Scribblifors – Transforms objects into writing quills.</li>
+        </ul>
+    </div>
+
+    <!-- Light and Darkness Related Spells -->
+    <div class="category">
+        <h2 class="category-title">Light and Darkness Related Spells</h2>
+        <ul class="spells">
+            <li>Umbra Scriptor – Makes shadows mimic the user’s movements.</li>
+            <li>Tenebris – Creates temporary darkness in an area.</li>
+        </ul>
+    </div>
+
+    <!-- Time and Space Manipulation Spells -->
+    <div class="category">
+        <h2 class="category-title">Time and Space Manipulation Spells</h2>
+        <ul class="spells">
+            <li>Tempus – Displays the time on a clock.</li>
+            <li>Episkey – Helps heal minor wounds or scratches.</li>
+            <li>Portus – Turns an object into a Portkey, allowing teleportation.</li>
+        </ul>
+    </div>
+
+    <!-- Illusion Magic Spells -->
+    <div class="category">
+        <h2 class="category-title">Illusion Magic Spells</h2>
+        <ul class="spells">
+            <li>Holoportus – Creates an illusory image of a moving person or thing.</li>
+            <li>Illusio – Creates an illusion where reality is distorted, making something appear that isn’t really there.</li>
+        </ul>
+    </div>
+
+    <!-- Advanced Defense and Protection -->
+    <div class="category">
+        <h2 class="category-title">Advanced Defense and Protection</h2>
+        <ul class="spells">
+            <li>Protego Horribilis – Provides stronger protection against dark spells.</li>
+            <li>Ferula – Creates a bandage or immobilizer for the victim’s injuries.</li>
+        </ul>
+    </div>
+
+    <!-- Environmental Protection Spells -->
+    <div class="category">
+        <h2 class="category-title">Environmental Protection Spells</h2>
+        <ul class="spells">
+            <li>Repello Muggletum – Repels Muggles from a specific area.</li>
+        </ul>
+    </div>
+
+    <!-- Miscellaneous and Curious Spells -->
+    <div class="category">
+        <h2 class="category-title">Miscellaneous and Curious Spells</h2>
+        <ul class="spells">
+            <li>Vera Verto – Turns an animal into an object (e.g., turning an animal into a cup).</li>
+        </ul>
+    </div>
+
+</div>
+<footer>
+<p>Made with love for Harry Potter fans</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,71 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Make sure the body takes up at least 100% of the viewport height */
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main content container */
+.container {
+    flex-grow: 1; /* Allow the content area to take up the remaining space */
+    padding: 20px;
+    margin-bottom: 50px; /* Ensure space for footer */
+}
+
+/* Category title styling */
+h2 {
+    color: #444;
+}
+
+/* Each category styling */
+.category {
+    margin-bottom: 30px;
+}
+
+/* Spells list styling */
+.spells {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.spells li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Category title text styling */
+.category-title {
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+}
+
